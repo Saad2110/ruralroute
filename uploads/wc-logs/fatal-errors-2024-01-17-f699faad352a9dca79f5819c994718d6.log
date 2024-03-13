@@ -1,0 +1,9 @@
+2024-01-17T12:28:00+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/customer/www/ruralroutepackage.ca/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code:133
+Stack trace:
+#0 /home/customer/www/ruralroutepackage.ca/public_html/wp-includes/shortcodes.php(433): dh_rr_pickup_current_cart_title('', '', 'dh_rr_pickup_ca...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/customer/www/ruralroutepackage.ca/public_html/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(dh_rr_...', 'do_shortcode_ta...', '[dh_rr_pickup_c...')
+#3 /home/customer/www/ruralroutepackage.ca/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(431): do_shortcode('[dh_rr_pickup_c...')
+#4 /home/customer/www/ruralroutepackage.ca/public_html/wp-content/plugins/elementor/includes/widgets/text-editor.php(417): Elementor\Widget_Base->parse_text_editor('[dh_rr_pickup_c...')
+#5 /home/customer/www/ruralroutepackage.ca/public_html/wp-content in /home/customer/www/ruralroutepackage.ca/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(287) : eval()'d code on line 133
+
